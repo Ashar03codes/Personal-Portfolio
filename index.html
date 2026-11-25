@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ashar Khan | Software &amp; Network Engineering Portfolio</title>
+
+  <meta name="description"
+    content="Portfolio of Ashar Khan — final-year Computer Science Engineering student focused on Software Engineering, Network Engineering and Cloud Computing.">
+  <meta name="keywords"
+    content="Ashar Khan, Portfolio, Software Engineer, Java Developer, Python Developer, Network Engineer, Cisco Packet Tracer, Computer Science">
+  <meta name="author" content="Ashar Khan">
+
+  <meta property="og:title" content="Ashar Khan | Portfolio">
+  <meta property="og:description" content="Software Engineering &amp; Network Engineering Portfolio">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/profile.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ashar Khan Portfolio">
+  <meta name="twitter:description" content="Software Engineering &amp; Networking Portfolio">
+
+  <link rel="icon" href="assets/favicon/favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Loader -->
+  <div id="loader">
+    <div class="loader-content">
+      <div class="loader-ring"></div>
+      <h2>Ashar Khan</h2>
+      <p>Loading Portfolio</p>
+    </div>
+  </div>
+
+  <div id="progress-bar"></div>
+  <div id="cursor-glow"></div>
+  <div class="bg-grid"></div>
+
+  <!-- Header -->
+  <header>
+    <nav class="nav container">
+      <a href="#hero" class="nav__mark" aria-label="Back to top">AK</a>
+
+      <ul class="nav__links">
+        <li><a href="#hero" class="nav__link">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#education" class="nav__link">Education</a></li>
+        <li><a href="#certifications" class="nav__link">Certificates</a></li>
+        <li><a href="#problem-solving" class="nav__link">Problem Solving</a></li>
+        <li><a href="#experience" class="nav__link">Learning</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="container hero__grid">
+      <div class="hero__intro">
+        <p class="eyebrow">Lucknow, India — Open to opportunities</p>
+
+        <h1 class="hero__name">Ashar <span class="accent">Khan</span></h1>
+
+        <p class="hero__role"><span class="typing"></span><span class="cursor" aria-hidden="true"></span></p>
+
+        <p class="hero__lede">
+          Final-year B.Tech Computer Science Engineering student building at the
+          intersection of software and networks — designing systems that are
+          efficient, reliable, and built to scale.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View Projects <span class="arrow">→</span></a>
+          <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+        </div>
+
+        <div class="hero__social">
+          <a href="#" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/ashar-codes" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:ashar.codes@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="hero__canvas-wrap"><canvas id="heroCanvas"></canvas></div>
+        <div class="hero__ring" aria-hidden="true"></div>
+        <span class="hero__node hero__node--a" aria-hidden="true"></span>
+        <span class="hero__node hero__node--b" aria-hidden="true"></span>
+        <span class="hero__node hero__node--c" aria-hidden="true"></span>
+
+        <div class="frame frame--profile">
+          <span class="frame-fallback">AK</span>
+          <img class="frame-img" src="assets/images/profile.png" alt="Portrait of Ashar Khan" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll-cue"><span class="line"></span>Scroll</div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container about__grid">
+      <div class="about__media">
+        <div class="frame frame--about">
+          <span class="frame-fallback">ASHAR<br>KHAN</span>
+          <img class="frame-img" src="assets/images/about.png" alt="Ashar Khan at work" loading="lazy">
+        </div>
+      </div>
+
+      <div class="about__copy">
+        <p class="eyebrow">About</p>
+        <h3>Building software. Designing networks. Solving problems.</h3>
+
+        <p>
+          I'm <strong>Ashar Khan</strong>, a final-year B.Tech Computer Science
+          Engineering student with a CGPA of <strong>8.60</strong>.
+        </p>
+        <p>
+          My interests span software engineering, network engineering, cloud
+          computing, data structures &amp; algorithms, and enterprise networking.
+        </p>
+        <p>
+          I enjoy learning modern technologies, building efficient solutions,
+          and improving through hands-on, practical problem solving.
+        </p>
+
+        <div class="stat-grid">
+          <div class="stat"><h2 class="counter stat__value" data-target="8.6">0</h2><p class="stat__label">CGPA</p></div>
+          <div class="stat"><h2 class="counter stat__value" data-target="2">0</h2><p class="stat__label">Major Projects</p></div>
+          <div class="stat"><h2 class="counter stat__value" data-target="70" data-suffix="+">0</h2><p class="stat__label">DSA Problems</p></div>
+          <div class="stat"><h2 class="counter stat__value" data-target="3">0</h2><p class="stat__label">Certifications</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Capabilities</p>
+        <h2>Skills</h2>
+        <p>The languages, protocols and tools I reach for most.</p>
+      </div>
+
+      <div class="skills__groups">
+        <div class="skill-group">
+          <h3 class="skill-group__title">Programming</h3>
+          <div class="skill-grid">
+            <div class="skill"><div class="skill__icon">☕</div><h4 class="skill__name">Java</h4></div>
+            <div class="skill"><div class="skill__icon">🐍</div><h4 class="skill__name">Python</h4></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">Networking</h3>
+          <div class="skill-grid">
+            <div class="skill"><div class="skill__icon">🌐</div><h4 class="skill__name">TCP/IP</h4></div>
+            <div class="skill"><div class="skill__icon">📡</div><h4 class="skill__name">IPv4 Addressing</h4></div>
+            <div class="skill"><div class="skill__icon">🧩</div><h4 class="skill__name">Subnetting</h4></div>
+            <div class="skill"><div class="skill__icon">🔀</div><h4 class="skill__name">VLANs</h4></div>
+            <div class="skill"><div class="skill__icon">📶</div><h4 class="skill__name">Routing</h4></div>
+            <div class="skill"><div class="skill__icon">🖧</div><h4 class="skill__name">Switching</h4></div>
+            <div class="skill"><div class="skill__icon">📥</div><h4 class="skill__name">DHCP</h4></div>
+            <div class="skill"><div class="skill__icon">🔒</div><h4 class="skill__name">Basic NAT</h4></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">Core Concepts</h3>
+          <div class="skill-grid">
+            <div class="skill"><div class="skill__icon">💻</div><h4 class="skill__name">Computer Networks</h4></div>
+            <div class="skill"><div class="skill__icon">🧠</div><h4 class="skill__name">Data Structures</h4></div>
+            <div class="skill"><div class="skill__icon">⚙️</div><h4 class="skill__name">Algorithms</h4></div>
+            <div class="skill"><div class="skill__icon">📦</div><h4 class="skill__name">Object-Oriented Programming</h4></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">Tools</h3>
+          <div class="skill-grid">
+            <div class="skill"><div class="skill__icon">🖥️</div><h4 class="skill__name">Cisco Packet Tracer</h4></div>
+            <div class="skill"><div class="skill__icon">📝</div><h4 class="skill__name">VS Code</h4></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Selected Work</p>
+        <h2>Projects</h2>
+        <p>Two network-engineering builds, designed and verified end to end in Cisco Packet Tracer.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project">
+          <div class="frame project__media">
+            <span class="frame-fallback">NET // 01</span>
+            <img class="frame-img" src="assets/images/project1.png" alt="Enterprise network topology diagram" loading="lazy">
+          </div>
+          <div class="project__body">
+            <span class="project__index">NODE / 01</span>
+            <h3 class="project__title">Enterprise Network Design Using Subnetting</h3>
+            <p class="project__desc">
+              Designed and implemented a multi-department enterprise network using
+              subnetted IPv4 addressing. Configured routers and switches, optimized
+              IP allocation and verified end-to-end communication.
+            </p>
+            <div class="project__tags">
+              <span>Cisco Packet Tracer</span><span>IPv4</span><span>Subnetting</span>
+              <span>Routing</span><span>Switching</span><span>DHCP</span>
+            </div>
+            <div class="project__actions">
+              <button type="button" class="btn btn--primary project__trigger"
+                data-title="Enterprise Network Design Using Subnetting"
+                data-desc="A multi-department enterprise network built around subnetted IPv4 addressing. Each department was assigned its own subnet to contain broadcast traffic and simplify administration, with routers and switches configured to carry traffic between them. IP allocation was optimized to avoid waste, DHCP was configured for automatic addressing, and end-to-end connectivity was verified across every department using ping and traceroute tests inside Cisco Packet Tracer."
+                data-tags="Cisco Packet Tracer, IPv4, Subnetting, Routing, Switching, DHCP"
+                data-image="assets/images/project1.png"
+                data-fallback="NET // 01">
+                View Details
+              </button>
+              <a href="#" class="btn btn--ghost" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="frame project__media">
+            <span class="frame-fallback">VLAN // 02</span>
+            <img class="frame-img" src="assets/images/project2.png" alt="VLAN departmental network diagram" loading="lazy">
+          </div>
+          <div class="project__body">
+            <span class="project__index">NODE / 02</span>
+            <h3 class="project__title">VLAN-Based Departmental Network</h3>
+            <p class="project__desc">
+              Designed and configured a VLAN-based enterprise network with
+              inter-VLAN routing, wireless connectivity and communication testing.
+            </p>
+            <div class="project__tags">
+              <span>Cisco Packet Tracer</span><span>VLAN</span><span>Routing</span>
+              <span>Switching</span><span>Wireless Networking</span>
+            </div>
+            <div class="project__actions">
+              <button type="button" class="btn btn--primary project__trigger"
+                data-title="VLAN-Based Departmental Network"
+                data-desc="A departmental network segmented into VLANs so that each team's traffic stays logically isolated on shared physical switching. Inter-VLAN routing was configured to let departments communicate where needed, while wireless access points were added for mobile connectivity. The build was validated with cross-VLAN and wireless communication tests to confirm routing and switching rules behaved as designed."
+                data-tags="Cisco Packet Tracer, VLAN, Routing, Switching, Wireless Networking"
+                data-image="assets/images/project2.png"
+                data-fallback="VLAN // 02">
+                View Details
+              </button>
+              <a href="#" class="btn btn--ghost" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project modal -->
+  <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal__panel">
+      <div class="modal__header">
+        <button type="button" class="modal__close" aria-label="Close project details">&times;</button>
+      </div>
+
+      <div class="frame modal__media">
+        <span class="frame-fallback"></span>
+        <img class="frame-img" src="" alt="" loading="lazy">
+      </div>
+
+      <h2 class="modal__title" id="modalTitle"></h2>
+      <p class="modal__desc"></p>
+      <div class="modal__tags"></div>
+    </div>
+  </div>
+
+  <!-- Education -->
+  <section id="education">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Academics</p>
+        <h2>Education</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2023 — Present</span>
+            <h3>B.Tech Computer Science Engineering</h3>
+            <h4>Integral University</h4>
+            <p><strong>CGPA:</strong> 8.60</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2020 — 2022</span>
+            <h3>ISC (Class XII)</h3>
+            <h4>St. Francis' College</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Credentials</p>
+        <h2>Certifications</h2>
+      </div>
+
+      <div class="cert-grid">
+        <div class="cert">
+          <div class="frame cert__media">
+            <span class="frame-fallback">CLOUD</span>
+            <img class="frame-img" src="assets/certificates/cloud.jpg" alt="Introduction to Cloud Computing certificate" loading="lazy">
+          </div>
+          <h3 class="cert__title">Introduction to Cloud Computing</h3>
+        </div>
+
+        <div class="cert">
+          <div class="frame cert__media">
+            <span class="frame-fallback">PYTHON</span>
+            <img class="frame-img" src="assets/certificates/python.jpg" alt="Python Bootcamp certificate" loading="lazy">
+          </div>
+          <h3 class="cert__title">Python Bootcamp</h3>
+        </div>
+
+        <div class="cert">
+          <div class="frame cert__media">
+            <span class="frame-fallback">BOOTSTRAP</span>
+            <img class="frame-img" src="assets/certificates/bootstrap.jpg" alt="Bootstrap CSS Bootcamp certificate" loading="lazy">
+          </div>
+          <h3 class="cert__title">Bootstrap CSS Bootcamp</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problem Solving -->
+  <section id="problem-solving">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Practice</p>
+        <h2>Problem Solving</h2>
+      </div>
+
+      <div class="ps-grid">
+        <div class="ps-card">
+          <h2 class="counter ps-card__value" data-target="70" data-suffix="+">0</h2>
+          <p class="ps-card__label">Problems Solved</p>
+        </div>
+
+        <div class="ps-card">
+          <h3>Platforms</h3>
+          <ul class="ps-list">
+            <li>LeetCode</li>
+            <li>HackerRank</li>
+          </ul>
+        </div>
+
+        <div class="ps-card ps-badges">
+          <h3>Badges</h3>
+          <p>Problem Solving <span class="stars">★★★</span></p>
+          <p>Java <span class="stars">★★</span></p>
+          <p>Python <span class="stars">★★</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hands-on Learning -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">In Progress</p>
+        <h2>Hands-on Learning</h2>
+      </div>
+
+      <div class="learning-grid">
+        <div class="learning-card"><span class="learning-card__index">01</span><h3>Enterprise Network Simulation</h3></div>
+        <div class="learning-card"><span class="learning-card__index">02</span><h3>Academic Projects</h3></div>
+        <div class="learning-card"><span class="learning-card__index">03</span><h3>Networking Labs</h3></div>
+        <div class="learning-card"><span class="learning-card__index">04</span><h3>DSA Practice</h3></div>
+        <div class="learning-card"><span class="learning-card__index">05</span><h3>Continuous Learning</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container contact__grid">
+      <div class="contact__info">
+        <p class="eyebrow">Get in Touch</p>
+        <h2 style="margin-bottom:36px;">Let's connect</h2>
+
+        <div class="contact__detail">
+          <span>Email</span>
+          <a href="mailto:ashar.codes@gmail.com">ashar.codes@gmail.com</a>
+        </div>
+        <div class="contact__detail">
+          <span>Phone</span>
+          <p>+91 63865 50920</p>
+        </div>
+        <div class="contact__detail">
+          <span>Location</span>
+          <p>Lucknow, India</p>
+        </div>
+
+        <div class="contact__socials">
+          <a href="#" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/ashar-codes" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:ashar.codes@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <form id="contactForm" class="contact__form" novalidate>
+        <div class="field">
+          <label class="sr-only" for="name">Your name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="field">
+          <label class="sr-only" for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="field">
+          <label class="sr-only" for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Subject" required>
+        </div>
+        <div class="field">
+          <label class="sr-only" for="message">Your message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--block">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer__inner">
+      <h2 class="footer__brand">Ashar Khan</h2>
+      <p class="footer__tag">Aspiring Software Engineer · Network Engineering Enthusiast</p>
+
+      <nav class="footer__links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button id="backToTop" aria-label="Back to top">↑</button>
+
+      <p class="footer__copyright">© <span id="year"></span> Ashar Khan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
